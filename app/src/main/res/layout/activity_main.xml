@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lll.commonkotlin.MainActivity">
+
+ <FrameLayout
+     android:id="@+id/mainContainer"
+     android:layout_width="match_parent"
+     android:layout_above="@+id/main_radioGroup"
+     android:layout_height="match_parent"/>
+
+  <RadioGroup
+      android:id="@+id/main_radioGroup"
+      android:orientation="horizontal"
+      android:background="@color/color_menu"
+      android:layout_alignParentBottom="true"
+      android:paddingTop="3dp"
+      android:paddingBottom="3dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/radio_homepage"
+        android:text="首页"
+        android:button="@null"
+        android:gravity="center"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/selector_radio_home"
+        android:textColor="@color/color_radio_text"
+        android:layout_weight="1"
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:id="@+id/radio_discover"
+        android:text="发现"
+        android:button="@null"
+        android:gravity="center"
+        android:drawablePadding="5dp"
+        android:layout_weight="1"
+        android:textColor="@color/color_radio_text"
+        android:drawableTop="@drawable/selector_radio_discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:id="@+id/radio_user"
+        android:text="我的"
+        android:button="@null"
+        android:gravity="center"
+        android:drawablePadding="5dp"
+        android:layout_weight="1"
+        android:textColor="@color/color_radio_text"
+        android:drawableTop="@drawable/selector_user_discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+  </RadioGroup>
+
+</RelativeLayout>
