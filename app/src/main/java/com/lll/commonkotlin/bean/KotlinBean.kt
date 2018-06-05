@@ -4,7 +4,8 @@ package com.lll.commonkotlin.bean
  * Created by longlong on 2018/6/5.
  *
  * @ClassName: KotlinBean
- * @Description: java 的基本数据类型 转换成 Kotlin 对应的代码对比基本数据类型定义
+ * @Description: java 的基本数据类型 转换成 Kotlin 对应的代码
+ *  对比Java和Kotlin 的基本数据类型定义
  * @Date 2018/6/5
  */
 
